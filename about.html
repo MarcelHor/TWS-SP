@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TWS</title>
+    <link rel="icon" href="assets/svg/TWS.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="js/header.js" defer></script>
+    <script src="js/question.js" defer></script>
+
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <a href="index.html" id="logo"><img src="assets/svg/TWS.svg" style="width: 60px" alt="Page logo"></a>
+        <nav id="menu">
+            <ul>
+                <li class="hover-background-animation"><a class="hover-underline-animation" href="index.html">Main</a>
+                </li>
+                <li class="hover-background-animation"><a class="hover-underline-animation"
+                                                          href="./about.html">About</a>
+                </li>
+                <li class="hover-background-animation"><a class="hover-underline-animation" href="./contact.html">Contact</a>
+                </li>
+                <li class="hover-background-animation"><a class="hover-underline-animation"
+                                                          href="./misc.html">Misc</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="javascript:void(0)" onclick="toggleMenu()" id="hamburger-container"><img id="hamburger"
+                                                                                          src="assets/svg/hamburger.svg"
+                                                                                          alt="Hamburger icon"></a>
+    </header>
+
+    <main>
+        <section class="intro-container">
+            <h1>About</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+                cursus
+                ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+                Praesent
+                mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+                Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        </section>
+        <section class="table-container">
+            <h2>Table</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2">Název</th>
+                    <th colspan="2">Zboží 1</th>
+                    <th colspan="2">Zboží 2</th>
+                </tr>
+                <tr>
+                    <th class="horizontal">Počet</th>
+                    <th>Cena</th>
+                    <th class="horizontal">Počet</th>
+                    <th>Cena</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="vertical">Produkt 1</td>
+                    <td class="horizontal">10</td>
+                    <td>100 Kč</td>
+                    <td class="horizontal">20</td>
+                    <td>200 Kč</td>
+                </tr>
+                <tr>
+                    <td class="vertical">Produkt 2</td>
+                    <td class="horizontal">5</td>
+                    <td>50 Kč</td>
+                    <td class="horizontal">15</td>
+                    <td>150 Kč</td>
+                </tr>
+                <tr>
+                    <td class="vertical">Produkt 3</td>
+                    <td class="horizontal">12</td>
+                    <td>120 Kč</td>
+                    <td class="horizontal">18</td>
+                    <td>180 Kč</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>FAQ</h2>
+            <div id="faq-container">
+                <div class="faq">
+                    <div class="question" onclick="toggleAnswer(this)">
+                        <h3>Question 3</h3>
+                    </div>
+                    <div class="answer-wrapper">
+                        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question" onclick="toggleAnswer(this)">
+                        <h3>Question 3</h3>
+                    </div>
+                    <div class="answer-wrapper">
+                        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question" onclick="toggleAnswer(this)">
+                        <h3>Question 3</h3>
+                    </div>
+                    <div class="answer-wrapper">
+                        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question" onclick="toggleAnswer(this)">
+                        <h3>Question 3</h3>
+                    </div>
+                    <div class="answer-wrapper">
+                        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="question" onclick="toggleAnswer(this)">
+                        <h3>Question 3</h3>
+                    </div>
+                    <div class="answer-wrapper">
+                        <p class="answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/"><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png"
+                    alt="Logo of Facebook"></a>
+            <a href="https://twitter.com/"><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-512.png"
+                    alt="Logo of Twitter"></a>
+            <a href="https://www.instagram.com/"><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png"
+                    alt="Logo of Instagram"></a>
+            <a href="https://www.linkedin.com/"><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png"
+                    alt="Logo of Linkedin"></a>
+        </div>
+        <hr>
+        <div>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftws.marcel-horvath.me%2Fabout&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=cs">Validace CSS</a>
+            <a href="https://html5.validator.nu/?doc=https%3A%2F%2Ftws.marcel-horvath.me%2Fabout">Validace HTML</a>
+            <a href="https://wave.webaim.org/report#/https://tws.marcel-horvath.me/about">AUDIT WCAG</a>
+        </div>
+        <div>
+            <p>© 2023 Marcel Horváth</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

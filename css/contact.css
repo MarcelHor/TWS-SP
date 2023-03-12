@@ -1,0 +1,119 @@
+main {
+    width: 100%;
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+    main {
+        max-width: 100%;
+    }
+}
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#social-container img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#social-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;}
+
+main p {
+    font-size: 16px;
+    margin: 20px;
+}
+
+form {
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    background-color: #324055;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: white;
+    color: #324055;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    background: none;
+    border: 3px solid#F5A100;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F5A100;
+}
+
+#map {
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+}
+
+#map.zIndex {
+    z-index: -1;
+}
+
+#submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#status-message {
+    font-size: 16px;;
+}
+
+h2 {
+    margin: 20px;
+}

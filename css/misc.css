@@ -1,0 +1,51 @@
+main {
+    margin: 50px auto;
+    padding: 40px;
+    max-width: 80%;
+}
+
+#video-container {
+   text-align: center;
+    padding: 30px;
+}
+
+#video-source{
+    width: 60%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 1024px) {
+    #video-source{
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: -1;
+    }
+    main {
+        max-width: 100%;
+    }
+}
+
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    color: #999;
+}
+
+figcaption a {
+    color:#F5A100;
+    text-decoration: none;
+}
+figcaption a:hover{
+    text-decoration: underline;
+}
+
+figcaption a:visited {
+    color: lightgreen;
+}
+
+h2 {
+    padding: 20px 0;
+}
